@@ -14,7 +14,7 @@ public class CallbackTest {
 
     @BeforeEach
     void setUp() {
-        open("http://0.0.0.0:9999");
+        open("http://localhost:9999");
     }
 
     @Test
